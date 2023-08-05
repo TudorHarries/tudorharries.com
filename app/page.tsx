@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="mx-auto max-w-xl py-8">
-        <h1 className="mb-8 text-center text-2xl font-black">Tudor Harries' blog</h1>
+        <h1 className="mb-8 text-center text-2xl font-black">Tudor Harries&apos; blog</h1>
         {posts.map((post, idx) => (
           <PostCard key={idx} {...post} />
         ))}
