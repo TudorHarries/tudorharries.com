@@ -2,21 +2,29 @@ import Image from 'next/image'
 import { allPosts, Post } from 'contentlayer/generated'
 import Link from 'next/link'
 import { compareDesc, format, parseISO } from 'date-fns'
+import { getMDXComponent } from 'next-contentlayer/hooks';
 
 function PostCard(post: Post) {
+  const Content = getMDXComponent(post.body.code);
+
   return (
     <div className="mb-8">
-      <h2 className="mb-1 text-xl">
-        <Link href={post.url} className="text-blue-700 hover:text-blue-900 dark:text-blue-400">
+      <h2 className="text-xl">
+        <Link
+          href={post.url}
+          className="text-blue-700 hover:text-blue-900"
+          legacyBehavior>
           {post.title}
         </Link>
       </h2>
-      <time dateTime={post.date} className="mb-2 block text-xs text-gray-600">
-        {format(parseISO(post.date), 'LLLL d, yyyy')}
+      <time dateTime={post.date} className="block mb-2 text-xs text-gray-600">
+        {format(parseISO(post.date), "LLLL d, yyyy")}
       </time>
-      <div className="text-sm [&>*]:mb-3 [&>*:last-child]:mb-0" dangerouslySetInnerHTML={{ __html: post.body.html }} />
+      <div className="text-sm">
+        <Content />
+      </div>
     </div>
-  )
+  );
 }
 
 export default function Home() {
