@@ -17,7 +17,12 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
   const MDXContent = useMDXComponent(post.body.code)
     
   return (
-    <MDXContent/>
+    <div>
+        <h1>{post.title}</h1>
+        <h2>{post.subtitle}</h2>
+        <h3>{post.createdAt}</h3>
+        <MDXContent/>
+    </div>
   )
 }
 

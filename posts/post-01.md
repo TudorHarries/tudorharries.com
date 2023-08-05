@@ -1,6 +1,8 @@
 ---
 title: My First Post
-date: 2021-12-24
+subtitle: Read on to see why I've created this website!
+createdAt: 2021-12-24
+updatedAt: 2021-12-25
 type: Post
 ---
 
