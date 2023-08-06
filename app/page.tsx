@@ -30,13 +30,9 @@ export default function Home() {
   const posts = allPosts.sort((a, b) => compareDesc(new Date(a.updatedAt), new Date(b.updatedAt)))
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="mx-auto max-w-xl py-8">
-        <h1 className="mb-8 text-center text-2xl font-black">Tudor Harries&apos; blog</h1>
-        {posts.map((post, idx) => (
-          <PostCard key={idx} {...post} />
-        ))}
-      </div>
-    </main>
+    <div className="mx-auto max-w-xl py-8">
+      <h1 className="mb-8 text-center text-2xl font-black">Tudor Harries</h1>
+      
+    </div>
   )
 }
