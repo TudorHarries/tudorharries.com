@@ -35,7 +35,7 @@ export default function Home() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Tudor Harries.</h2>
           <p className="mt-6 text-md leading-8 text-gray-600">
-            Hi there! I'm an enthusiastic engineer who thrives on versatility, with a focus on creating top-notch products. Right now, I'm a Production Engineer at <Link className="text-orange-600 hover:text-orange-700" href="https://kaluza.com/">Kaluza</Link>, proudly contributing to the Reliability squad. 
+            Hi there! I&apos;m an enthusiastic engineer who thrives on versatility, with a focus on creating top-notch products. Right now, I&apos;m a Production Engineer at <Link className="text-orange-600 hover:text-orange-700" href="https://kaluza.com/">Kaluza</Link>, proudly contributing to the Reliability squad. 
           </p>
           <div className="flex py-4 space-x-4">
             <Link className="h-6 w-6" href="https://www.linkedin.com/in/tudorharries/">
