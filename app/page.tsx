@@ -55,6 +55,7 @@ export default function Home() {
             <p>
               I am...
             </p>
+            <p>Call to action goes here</p>
           </div>
 
           <div className="w-3/5">
