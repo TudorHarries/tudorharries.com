@@ -60,26 +60,34 @@ export default function Home() {
           <div className="w-3/5">
             <ol className="relative border-l border-gray-200 dark:border-gray-700">                  
                 <li className="mb-10 ml-4">
-                    <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                    <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2022-present</time>
-                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Production Engineer @ Kaluza</h3>
-                    <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">My job...</p>
+                    <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+                    <time className="mb-1 text-sm font-normal leading-none text-gray-400">2022-present</time>
+                    <h3 className="text-lg font-semibold text-gray-900">Production Engineer @ Kaluza</h3>
+                    <p className="mb-4 text-base font-normal text-gray-500">My job...</p>
                 </li>
                 <li className="mb-10 ml-4">
-                    <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                    <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2020-2021</time>
-                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Software Engineer (Year in industry) @ Kaluza</h3>
-                    <p className="text-base font-normal text-gray-500 dark:text-gray-400">My job...</p>
+                    <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+                    <time className="mb-1 text-sm font-normal leading-none text-gray-400">2020-2021</time>
+                    <h3 className="text-lg font-semibold text-gray-900">Software Engineer (Year in industry) @ Kaluza</h3>
+                    <p className="text-base font-normal text-gray-500">My job...</p>
                 </li>
                 <li className="ml-4">
-                    <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                    <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2018-2022</time>
-                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Computer Science student @ University of Surrey</h3>
-                    <p className="text-base font-normal text-gray-500 dark:text-gray-400">My degree...</p>
+                    <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+                    <time className="mb-1 text-sm font-normal leading-none text-gray-400">2018-2022</time>
+                    <h3 className="text-lg font-semibold text-gray-900">Computer Science student @ University of Surrey</h3>
+                    <p className="text-base font-normal text-gray-500">My degree...</p>
                 </li>
             </ol>
           </div>
-        
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              My writing
+          </h3>
+          <p>
+            blog posts go here...
+          </p>
         </div>
       </div>
     </div>
