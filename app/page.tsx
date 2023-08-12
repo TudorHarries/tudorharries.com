@@ -57,7 +57,8 @@ export default function Home() {
               I&apos;m passionate about full-stack, customer-centric development with experience building both internal tooling and customer-facing products. Additionally, I have experience in automating and administering cloud-based tools, embedding with internal teams in an SRE function, and having a strong involvement in the product side of things.
               <br /> 
               <br />
-              Outside of work, I have a strong desire to learn and try new things and as a result I have many interests from baking and gardening to climbing and snowboarding. Over the past few years I have developed a passion for volunteering, whether that&apos;s helping people switch careers into tech or supervising a nightclub welfare service. As a result I am a confident communicator who is capable of working within or leading a team. As important as technical skills are for an engineer, I truly believe that &quot;soft&quot; skills are essential and lead to better results, quicker.
+              Outside of work, I have a strong desire to learn and try new things and as a result I have many interests from baking and gardening to climbing and snowboarding. 
+              Over the past few years I have developed a passion for volunteering, whether that&apos;s helping people switch careers into tech or supervising a nightclub welfare service. One of my proudest achievements is raising £2,800 for WWF by climbing Mt. Kilimanjaro, the tallest freestanding mountain in the world, as part of a student team. As a result of these experiences, I am a confident communicator who is capable of working within or leading a team. As important as technical skills are for an engineer, I truly believe that &quot;soft&quot; skills are essential and lead to better results, quicker.
             </p>
           </div>
 
@@ -67,19 +68,31 @@ export default function Home() {
                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
                     <time className="mb-1 text-sm font-normal leading-none text-gray-400">2022-present</time>
                     <h3 className="text-lg font-semibold text-gray-900">Production Engineer @ Kaluza</h3>
-                    <p className="mb-4 text-base font-normal text-gray-500">My job...</p>
+                    <p className="mb-4 text-base font-normal text-gray-500">
+                      Production Engineer on the Enablement and Release Engineering (formerly Developer Experience) team with work ranging from developing internal tooling and products, cloud administration, automation, and supporting other engineering teams across the platform.
+                      <br />
+                      <br />
+                      Highlights include helping to build Kaluza&apos;s implementation of Backstage.io to improve discoverability and developer productivity; embedding with SRE and core platform teams to increase adoption of tooling and best practices; owning a project to revamp our support process; maintaining and improving legacy services, saving £1000s; writing high-quality documentation and delivering talks and workshops to both technical and non-technical audiences.
+                    </p>
                 </li>
                 <li className="mb-10 ml-4">
                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
                     <time className="mb-1 text-sm font-normal leading-none text-gray-400">2020-2021</time>
                     <h3 className="text-lg font-semibold text-gray-900">Software Engineer (Year in industry) @ Kaluza</h3>
-                    <p className="text-base font-normal text-gray-500">My job...</p>
+                    <p className="text-base font-normal text-gray-500">
+                      12-month Professional Training Year Placement (Year in Industry) as a software engineer on the Kaluza Home Moves team. This was a full-stack position using technologies such as Node.js, TypeScript (with a heavy functional focus using fp-ts), React, Apache Kafka, AWS, Terraform.
+                      <br />
+                      <br />
+                      Highlights include owning a project from design to delivery in order to enable complex date changes, which involved dependencies across 3 teams and was key to team goals; rewriting asynchronous integration tests to be deterministic and up to 50% quicker; spotted quick win and reworked "Move Out" page to reduce cancelled direct debits before final statement by 18%; participated in and led both technical and product discussions, represented the team across the platform, and helped interview 4 engineering candidates.
+                    </p>
                 </li>
                 <li className="ml-4">
                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
                     <time className="mb-1 text-sm font-normal leading-none text-gray-400">2018-2022</time>
                     <h3 className="text-lg font-semibold text-gray-900">Computer Science student @ University of Surrey</h3>
-                    <p className="text-base font-normal text-gray-500">My degree...</p>
+                    <p className="text-base font-normal text-gray-500">
+                      First class degree in Computer Science with a year abroad at Brock University in Canada. Final year project  exploring the improvement of history education through a web app and NLP applications.
+                    </p>
                 </li>
             </ol>
           </div>
