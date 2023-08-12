@@ -34,8 +34,8 @@ export default function Home() {
       <div className="flex-col mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Tudor Harries.</h2>
-          <p className="mt-6 text-md leading-8 text-gray-600">
-            Hi there! I&apos;m an enthusiastic engineer who thrives on versatility, with a focus on creating top-notch products. Right now, I&apos;m a Production Engineer at <Link className="text-orange-600 hover:text-orange-700" href="https://kaluza.com/">Kaluza</Link>, proudly contributing to the Reliability squad. 
+          <p className="mt-4 text-md leading-8 text-gray-600">
+            Versatile, product-focused engineer. Currently at <Link className="text-orange-600 hover:text-orange-700" href="https://kaluza.com/">Kaluza</Link>.
           </p>
           <div className="flex py-4 space-x-4">
             <Link className="h-6 w-6" href="https://www.linkedin.com/in/tudorharries/">
@@ -47,18 +47,21 @@ export default function Home() {
           </div>
         </div>
         
-        <div className="flex justify-between">
-          <div className="w-2/5">
+        <div className="py-8 flex justify-between">
+          <div className="w-1/2 mr-16">
             <h3 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               About me
             </h3>
-            <p>
-              I am...
+            <p className="mt-4">
+              Hi there! I&apos;m an enthusiastic engineer who thrives on versatility, with a focus on creating top-notch products. Right now, I&apos;m a Production Engineer at <Link className="text-orange-600 hover:text-orange-700" href="https://kaluza.com/">Kaluza</Link>, proudly contributing to the Reliability squad.
+              I'm passionate about full-stack, customer-centric development with experience building both internal tooling and customer-facing products. Additionally, I have experience in automating and administering cloud-based tools, embedding with internal teams in an SRE function, and having a strong involvement in the product side of things.
+              <br /> 
+              <br />
+              Outside of work, I have a strong desire to learn and try new things and as a result I have many interests from baking and gardening to climbing and snowboarding. Over the past few years I have developed a passion for volunteering, whether that's helping people switch careers into tech or supervising a nightclub welfare service. As a result I am a confident communicator who is capable of working within or leading a team. As important as technical skills are for an engineer, I truly believe that "soft" skills are essential and lead to better results, quicker.
             </p>
-            <p>Call to action goes here</p>
           </div>
 
-          <div className="w-3/5">
+          <div className="w-1/2">
             <ol className="relative border-l border-gray-200 dark:border-gray-700">                  
                 <li className="mb-10 ml-4">
                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
@@ -82,11 +85,11 @@ export default function Home() {
           </div>
         </div>
 
-        <div>
+        <div className="py-8">
           <h3 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               My writing
           </h3>
-          <p>
+          <p className="mt-4">
             blog posts go here...
           </p>
         </div>
