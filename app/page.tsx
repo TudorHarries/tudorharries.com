@@ -97,15 +97,6 @@ export default function Home() {
             </ol>
           </div>
         </div>
-
-        <div className="py-8">
-          <h3 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              My writing
-          </h3>
-          <p className="mt-4">
-            blog posts go here...
-          </p>
-        </div>
       </div>
     </div>
   )
