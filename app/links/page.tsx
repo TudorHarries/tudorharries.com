@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Links() {
     return (
         <div className="bg-white py-24 sm:py-32">
@@ -9,9 +11,16 @@ export default function Links() {
                     </p>
                 </div>
 
-                <div>
-                    <p>link</p>
-                    <p>link</p>
+                <div className="flex-col mt-16">
+                    <div>
+                        <Link className="hover:text-orange-700" href="https://blogs.surrey.ac.uk/professional-training-placement-experience/2021/01/29/help-ive-broken-it-again-and-other-stories-from-my-year-in-industry-so-far-part-1/">‘Help I’ve broken it again’ and other stories from my Year In Industry so far (part 1)</Link>
+                    </div>
+                    <div>
+                        <Link className="hover:text-orange-700" href="https://blogs.surrey.ac.uk/professional-training-placement-experience/2021/01/29/help-ive-broken-it-again-and-other-stories-from-my-year-in-industry-so-far-part-2/">‘Help I’ve broken it again’ and other stories from my Year In Industry so far (part 2)</Link>
+                    </div>
+                    <div>
+                        <Link className="hover:text-orange-700" href="https://blogs.surrey.ac.uk/professional-training-placement-experience/2021/05/30/oh-wait-i-think-ive-fixed-it-and-other-stories-from-the-second-half-of-my-year-in-industry/">“Oh wait, I think I’ve fixed it” and other stories from the second half of my Year in Industry</Link>
+                    </div>
                 </div>
             </div>
         </div>
