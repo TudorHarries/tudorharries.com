@@ -54,10 +54,10 @@ export default function Home() {
             </h3>
             <p className="mt-4">
               Hi there! I&apos;m an enthusiastic engineer who thrives on versatility, with a focus on creating top-notch products. Right now, I&apos;m a Production Engineer at <Link className="text-orange-600 hover:text-orange-700" href="https://kaluza.com/">Kaluza</Link>, proudly contributing to the Reliability squad.
-              I'm passionate about full-stack, customer-centric development with experience building both internal tooling and customer-facing products. Additionally, I have experience in automating and administering cloud-based tools, embedding with internal teams in an SRE function, and having a strong involvement in the product side of things.
+              I&apos;m passionate about full-stack, customer-centric development with experience building both internal tooling and customer-facing products. Additionally, I have experience in automating and administering cloud-based tools, embedding with internal teams in an SRE function, and having a strong involvement in the product side of things.
               <br /> 
               <br />
-              Outside of work, I have a strong desire to learn and try new things and as a result I have many interests from baking and gardening to climbing and snowboarding. Over the past few years I have developed a passion for volunteering, whether that's helping people switch careers into tech or supervising a nightclub welfare service. As a result I am a confident communicator who is capable of working within or leading a team. As important as technical skills are for an engineer, I truly believe that "soft" skills are essential and lead to better results, quicker.
+              Outside of work, I have a strong desire to learn and try new things and as a result I have many interests from baking and gardening to climbing and snowboarding. Over the past few years I have developed a passion for volunteering, whether that&apos;s helping people switch careers into tech or supervising a nightclub welfare service. As a result I am a confident communicator who is capable of working within or leading a team. As important as technical skills are for an engineer, I truly believe that &quot;soft&quot; skills are essential and lead to better results, quicker.
             </p>
           </div>
 
