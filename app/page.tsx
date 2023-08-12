@@ -83,7 +83,7 @@ export default function Home() {
                       12-month Professional Training Year Placement (Year in Industry) as a software engineer on the Kaluza Home Moves team. This was a full-stack position using technologies such as Node.js, TypeScript (with a heavy functional focus using fp-ts), React, Apache Kafka, AWS, Terraform.
                       <br />
                       <br />
-                      Highlights include owning a project from design to delivery in order to enable complex date changes, which involved dependencies across 3 teams and was key to team goals; rewriting asynchronous integration tests to be deterministic and up to 50% quicker; spotted quick win and reworked "Move Out" page to reduce cancelled direct debits before final statement by 18%; participated in and led both technical and product discussions, represented the team across the platform, and helped interview 4 engineering candidates.
+                      Highlights include owning a project from design to delivery in order to enable complex date changes, which involved dependencies across 3 teams and was key to team goals; rewriting asynchronous integration tests to be deterministic and up to 50% quicker; spotted quick win and reworked &quot;Move Out&quot; page to reduce cancelled direct debits before final statement by 18%; participated in and led both technical and product discussions, represented the team across the platform, and helped interview 4 engineering candidates.
                     </p>
                 </li>
                 <li className="ml-4">
