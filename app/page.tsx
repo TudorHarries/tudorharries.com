@@ -47,7 +47,7 @@ export default function Home() {
           </div>
         </div>
         
-        <div className="py-8 flex justify-between">
+        <div className="py-8 flex flex-col justify-between lg:flex-row">
           <div className="w-1/2 mr-16">
             <h3 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               About me
@@ -62,7 +62,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="w-1/2">
+          <div className="w-1/2 mt-16 lg:mt-0">
             <ol className="relative border-l border-gray-200 dark:border-gray-700">                  
                 <li className="mb-10 ml-4">
                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
